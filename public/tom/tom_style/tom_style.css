@@ -1,0 +1,35 @@
+@font-face{
+  font-family:"jgs";
+  src:url("jgs_Font.ttf");
+}
+
+body{
+  color:#000;
+  background-color:#000;
+}
+
+* {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+/*transition: color 1s, background-color 1s;*/
+  cursor:none;
+}
+pre {
+  font-family:"jgs";
+  /*font-weight: bold;*/
+  position: fixed;
+  top:0;
+  left:0;
+  /*pointer-events: none;*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.art_source{
+  display: none;
+}
+
