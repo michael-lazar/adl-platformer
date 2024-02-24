@@ -91,13 +91,13 @@ let started = false;
 document.addEventListener("keydown",function(e){
   if (started) return;
   started = true;
-  start_animation_event(1,function(frame){
-      fetch("music_script.js").then(function(response){
-        response.text().then(function(text){
-          script = text;
-        });
-      });
-  })
+  // start_animation_event(1,function(frame){
+  //     fetch("music_script.js").then(function(response){
+  //       response.text().then(function(text){
+  //         script = text;
+  //       });
+  //     });
+  // })
 });
 
 /*

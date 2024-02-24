@@ -31,6 +31,7 @@ screen.onUpdate.push(function(screen){
 // DOM INIT
 document.addEventListener("DOMContentLoaded", function() {
   screen_print = document.createElement("pre");
+  screen_print.id = "screenPrint"
   screen_background = document.body;
   screen_background.appendChild(screen_print);
   start_animation_event(1,function(frame){

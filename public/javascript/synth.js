@@ -3,6 +3,7 @@ console.log("synth.js");
 var ctx;
 
 function play(note,gain,in_dur,mid_dur,out_dur,res,noise,flat,dist) {
+  return;
   if(!ctx) ctx = new(window.AudioContext || window.webkitAudioContext)();
   if(!gain  || !note || (!in_dur && !mid_dur && !out_dur)) return;
   if(!res   || res   < 0) res = 10000;

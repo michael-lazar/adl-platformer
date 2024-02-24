@@ -41,8 +41,10 @@ function display_process(
   screen_background.style.backgroundColor = print_color(background);
   character_width = font_size*font_x_ratio;
   character_height = font_size*font_y_ratio;
-  screen_width = window.innerWidth/character_width;
-  screen_height = window.innerHeight/character_height;
+  // screen_width = window.innerWidth/character_width;
+  // screen_height = window.innerHeight/character_height;
+  screen_width = 80;
+  screen_height = 32;
   screen.update(screen_width,screen_height);
   camera.center_x = screen.width/2;
   camera.center_y = screen.height/2;
